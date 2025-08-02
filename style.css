@@ -166,6 +166,9 @@ nav ul li a {
   font-weight: 700;
   text-align: left;
   user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* Footer */
@@ -413,6 +416,7 @@ footer {
 @media (max-width: 768px) {
   body {
     font-size: 14px;
+    align-items: center;
   }
 
   header h1 {
@@ -435,6 +439,7 @@ footer {
   .btn {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
+    text-align: center;
   }
 
   .features {
@@ -459,6 +464,11 @@ footer {
     padding: 1rem;
   }
 
+  .order-form {
+    flex-direction: column;
+
+  }
+
   .service-cards,
   .service-detail-cards,
   .casket-grid,
@@ -471,10 +481,6 @@ footer {
   .service-detail-card,
   .casket-card {
     width: 87%;
-  }
-
-  .order-form {
-    flex-direction: column;
   }
 
   .order-image img,
