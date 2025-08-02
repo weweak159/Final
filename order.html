@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Order - Peaceful Rest Funeral Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Peaceful Rest Funeral Home</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="caskets.html">caskets</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="order-form container">
+            <div class="order-image">
+                <img src="./images/image 1(1).png" alt="White Cross Casket with Lords Prayer" />
+            </div>
+            <div class="order-info">
+                <h2>White Cross Casket with Lords Prayer</h2>
+                <p class="price">₱10,000</p>
+                <form action="thankyou.html" method="GET" class="order-form-fields">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="address">Address *</label>
+                    <input type="text" id="address" name="address" required />
+
+                    <label for="phone">Phone number *</label>
+                    <input type="tel" id="phone" name="phone" required />
+
+                    <label for="schedule">Schedule *</label>
+                    <input type="text" id="schedule" name="schedule" required />
+
+                    <label for="special-request">Special Request *</label>
+                    <textarea id="special-request" name="special-request" rows="4" required></textarea>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn">Place Order</button>
+                        <a href="caskets.html" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
